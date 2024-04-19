@@ -3,10 +3,10 @@ $(document).ready(function () {
 		//Open street  Map
 		var coord = [35.175016, -81.559679]; // <--- coordinates here
 
-		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 19);
+		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 13);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		maxZoom: 10,
+		maxZoom: 22,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
