@@ -6,7 +6,7 @@ $(document).ready(function () {
 		var map = L.map('map-canvas', { scrollWheelZoom:false}).setView(coord, 19);
 
 		L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		maxZoom: 22,
+		maxZoom: 10,
 		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 		}).addTo(map);
 
